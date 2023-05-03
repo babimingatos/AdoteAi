@@ -23,8 +23,7 @@ if ((isset($_POST['cemail']) && !empty(trim($_POST['cemail']))) && (isset($_POST
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'adoteai43@gmail.com';
-	$mail->Password = 'projetotcc';
+
 	$mail->Port = 587;
 
 	$mail->setFrom('adoteai43@gmail.com');
